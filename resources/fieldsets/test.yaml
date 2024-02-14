@@ -1,0 +1,6 @@
+title: 'Test'
+fields:
+  -
+    handle: test
+    field:
+      type: link

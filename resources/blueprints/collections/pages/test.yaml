@@ -1,0 +1,23 @@
+tabs:
+  main:
+    display: Test
+    sections:
+      -
+        fields:
+          -
+            handle: test
+            field:
+              remove_empty_nodes: trim
+              sets:
+                test:
+                  display: Test
+                  sets:
+                    test:
+                      display: Test
+                      fields:
+                        -
+                          import: test
+              always_show_set_button: true
+              type: bard
+              display: Test
+title: Test
